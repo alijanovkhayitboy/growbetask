@@ -1,0 +1,57 @@
+.sect-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 90%;
+    height: 200px;
+    border: 1px solid #EEEEEE;
+    background-color: #fff;
+    background-image: url(../img/Ellipse5.png), url(../img/Ellipse4.png), url(../img/Ellipse6.png);
+    background-repeat: no-repeat;
+    background-position: center, center left 330px,  center right 330px;
+}
+
+
+.sect-7links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sect7-item {
+    margin: 0px 80px;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h3 {
+            width: 75px;
+            height: 105px;
+            font-family: 'IBM Plex Mono';
+            font-size: 70px;
+            line-height: 150%;
+            color: #666666;
+        }
+
+        p {
+            width: 160px;
+            height: 27px;
+            font-family: 'Noto Sans';
+            font-size: 18px;
+            line-height: 150%;
+            color: #666666;
+
+        }
+    }
+}

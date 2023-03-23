@@ -1,0 +1,137 @@
+.sect3 {
+    background: #f4f7f5;
+    padding: 100px 176px;
+    height: 540px;
+    background-image: url(../img/macbook.png), url(../img/backimg.png), url(../img/backimg2.png);
+    background-repeat: no-repeat;
+    background-position: top -50px right, center center, center center;
+}
+
+
+
+.sect-3-title {
+    width: 523px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: start;
+    color: #1a1918;
+}
+
+
+
+
+.sect3-title-info {
+    margin: 30px 0px;
+    width: 300px;
+    color: #1f1f1d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: start;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sect4 {
+    padding: 50px 130px;
+    background-color: #FBFAF7;
+    width: 100%;
+    height: 491px;
+
+}
+
+.sect4-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.sect4-cont {
+    width: 310px;
+    height: 226px;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    transition: all 0.4s ease 0s;
+}
+
+.conback1{
+    background-image: url(../img/cont4back.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+.conback2{
+    background-image: url(../img/cont4back3.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+.conback3{
+    background-image: url(../img/cont4back1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+.sect4-cont:hover{
+    width: 390px;
+    height: 275px;
+    padding: 40px 25px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background-repeat: no-repeat;
+    background-position: top 20px  left 30px;
+}
+
+
+.sect-4-title {
+    height: 30px;
+    width: 215px;
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+
+.sect4-title-info{
+    width: 240px;
+    color: #1f1f1d;
+    margin: 15px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: start;
+    font-family: 'Noto Sans', sans-serif;
+}
+.sect4-btn{
+    border: none;
+    background-color: transparent;
+}
+
+.cons1-btn{
+    margin: 20px 0px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: 1px solid transparent;
+    background-color: #F25822;
+    color: #f4f7f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
